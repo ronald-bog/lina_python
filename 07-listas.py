@@ -18,3 +18,74 @@ print(numeros)
 numeros[0] = 202
 
 print(numeros)
+
+''' extend(iterable) '''
+
+lista = [6, 7, 8]
+lista.extend([9, 10])
+lista.extend('SQL')
+print(lista)
+
+''' insert(i, x) '''
+miLista = [56, 45, 21]
+# iLista.insert(1, 1000)
+miLista.insert(1, [1000, 2000])
+print(miLista)
+
+''' remove(x) '''
+enteros = [45, 56, 20, 56, 100]
+enteros.remove(56)
+print(enteros)
+
+
+''' pop(i) '''
+
+numbers = [5, 6, 7, 8, 9, 10]
+devuelve = numbers.pop()
+print(devuelve)
+print(numbers)
+
+devuelveA = numbers.pop(0)
+print(devuelveA)
+print(numbers)
+
+''' index(x) '''
+
+numbersB = [5, 6, 7, 8, 9, 10]
+print(numbersB.index(10))
+
+''' count(x) '''
+numbersB = [5, 6, 7, 8, 9, 10, 8, 9, 10, 8]
+print(numbersB.count())
+
+''' sort(reverse=False) '''
+
+numbersDesordenada = [5, 6, 7, 8, 9, 10, 8, 9, 10, 8, 1, 2]
+numbersDesordenada.sort(reverse=True)
+print(numbersDesordenada)
+
+''' reverse()  '''
+reverso = ['z', 'a', 'd']
+reverso.reverse()
+print(reverso)
+
+''' copy() '''
+listaZ = ['Lina', 'Laura', 'Liliana']
+nuevaLista = listaZ.copy()
+print(nuevaLista)
+# Vamos a ver mas adelante almacenamiento por valor y referencia, como unir todos los elementos de una matriz
+
+''' clear() '''
+listaZ.clear()
+print(listaZ)
+
+
+''' Desempaquetamiento de una lista '''
+lenguajes = ['Python', 'JS', 'JAVA']
+
+Variable1, lenguaje, cosa = lenguajes
+
+print(Variable1)
+print(lenguaje)
+print(cosa)
+
