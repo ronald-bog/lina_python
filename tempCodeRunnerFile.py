@@ -1,5 +1,8 @@
-cadena = 'Hola mundo'
 
 
-vocales = [letra for letra in cadena if letra in ['a', 'e', 'i', 'o', 'u']]
-print(vocales)
+def paramDefault(nombre, a='Hola'):
+    mensaje = f'{a} {nombre}, un gusto!!!'
+    return mensaje
+
+
+print(paramDefault('Lina', 'Como estas'))
