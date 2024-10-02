@@ -89,3 +89,27 @@ print(Variable1)
 print(lenguaje)
 print(cosa)
 
+
+''' LISTAS POR COMPRENSION '''
+
+''' sintaxis:
+[iten a nueva_lista for item in 'iterable']
+'''
+
+resultado = [i for i in range(6)]
+print(resultado)
+
+multiplos = [i * 3 for i in range(1, 11)]
+print(multiplos)
+
+numbers = [item*5 for item in range(10)]
+pares = [item*5 for item in range(10) if item % 2 == 0]
+print(numbers)
+print(pares)
+
+''' Ejemplo '''
+
+cadena = 'Hola mundo'
+
+vocales = [letra for letra in cadena if letra in 'aeiou']
+print(vocales)
