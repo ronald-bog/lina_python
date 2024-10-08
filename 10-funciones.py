@@ -85,7 +85,7 @@ def multiplicar(a, b):
 
 # Parametros Variables
 
-def sumar(*args):
+def sumar(**kwargs):
     return sum(args)
 
 print(sumar(5, 10, 15, 30, 100))
