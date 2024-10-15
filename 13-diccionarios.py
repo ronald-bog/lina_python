@@ -95,7 +95,7 @@ elementos = lenguaje.items()
 dicc = {'build': 'interpretado', 'version': '3.12'}
 
 lenguaje.update(dicc)
-# print(lenguaje)
+#print(lenguaje)
 
 #! setdefault
 
