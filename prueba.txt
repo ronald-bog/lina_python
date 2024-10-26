@@ -1,0 +1,7 @@
+cuarta lineanto
+vamas a usar
+writelines para escribir
+en el archivo
+Acción
+y ahora estoy agregando
+lineas con append.octava linea
